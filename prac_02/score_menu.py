@@ -22,7 +22,7 @@ def main():
 
         print(menu)
         choice = input(">>> ").upper()
-    print("Thank you.")
+    print("Farewell!!!!")
 
 
 def get_valid_score():
