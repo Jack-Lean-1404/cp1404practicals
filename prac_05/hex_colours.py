@@ -10,6 +10,7 @@ COLOUR_TO_HEX = {
     "corn": "#fbec5d",
     "denim": "#1560bd",
 }
+
 colour_name = input("Colour name: ").lower()
 while colour_name != "":
     try:
