@@ -5,8 +5,7 @@ word_to_occurrence = {}
 
 string = input("Enter a string: ")
 
-words = string.split()
-for word in words:
+for word in string.split():
     frequency = word_to_occurrence.get(word, 0)
     word_to_occurrence[word] = frequency + 1
 
@@ -17,6 +16,5 @@ max_length = max((len(word) for word in words))
 for word in words:
     print(f"{word:{max_length}} : {word_to_occurrence[word]}")
 
-print(word_to_occurrence)
 
 
