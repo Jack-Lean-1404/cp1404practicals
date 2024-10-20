@@ -10,15 +10,15 @@ def main():
 
 def process_records(records):
     """Create dictionary of champions and countries"""
-    champion = {}
+    champion_to_country = {}
     countries = set()
     for record in records:
         countries.add(record[1])
         try:
-            champion[record[2]] += 1
+            champion_to_country[record[2]] += 1
         except KeyError:
-            champion[record[2]] = 1
-    return champion, countries
+            champion_to_country[record[2]] = 1
+    return champion_to_country, countries
 
 
 def display_results(champion, countries):
