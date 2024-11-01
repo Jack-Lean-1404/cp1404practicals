@@ -1,4 +1,4 @@
-"""Guess = 20mins, Actual = ??"""
+"""Guess = 20mins, Actual = 15mins"""
 
 CURRENT_YEAR = 2024
 VINTAGE_AGE = 50
