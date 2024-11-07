@@ -15,4 +15,6 @@ class Guitar:
         """Return guitar details."""
         return f"{self.name} ({self.year}) : ${self.cost}"
 
-
+    def __lt__(self, other):
+        """Define the 'less than' operator to compare guitars by year."""
+        return self.year < other.year
