@@ -54,6 +54,6 @@ print(f"{year} {name} for about ${cost:,.0f}!")
 # 2 ^10 is 1024
 
 squared = 1
-for i in range(11):
+for i in range(20):
     print(f"2 ^{i:>2} is {squared:>4}")
     squared = squared * 2
