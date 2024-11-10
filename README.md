@@ -7,9 +7,9 @@ am Jack Lean and i am a first year student who is studying a Bachelor of Informa
 CP1404 or Programming 2 subject.
 
 # Clean Code Lessons
--  asdfas
--  adsfasdg
--  asdgasdfgsd
+-  Meaningful Names
+-  SRP
+-  Right tool for the right job
 
 ## Links
 - https://github.com/CP1404/Starter/wiki/Programming-Patterns
