@@ -4,9 +4,7 @@ BoxLayout:
         orientation: 'horizontal'
         TextInput:
             id: input_miles
-           # text: '7'
             font_size: 48
-           # multiline: False
             on_text_validate: app.handle_update()
         BoxLayout:
             orientation: 'vertical'
@@ -22,9 +20,10 @@ BoxLayout:
     Button:
         text: 'Convert miles to km'
         font_size: 48
-        #on_press: app.handle_calculate(input_number.text)
+        on_press: app.convert_miles()
     Label:
         id: output_label
         font_size: 48
-        color: (1, 0.75, 0.8, 1)
+        text: '54.717'
+        color: (1, 1, 0, 1)
 

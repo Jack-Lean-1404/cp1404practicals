@@ -25,12 +25,15 @@ class MilesToKilometresConverter(App):
 
     def increment_miles(self, direction):
         """increment the miles by the given direction"""
-
         miles = float(self.root.ids.input_miles.text)
-
-        miles = miles + direction
+        miles += direction
         self.root.ids.input_miles.text = str(miles)
 
+    def convert_miles(self):
+        """Calculate the conversion from miles to kilometres"""
+        miles = float(self.root.ids.input_miles.text)
+        km = miles * 1.609
+        self.root.ids.output_label.text = str(km)
 
 
 MilesToKilometresConverter().run()
