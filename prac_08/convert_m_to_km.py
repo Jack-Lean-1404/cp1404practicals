@@ -23,5 +23,14 @@ class MilesToKilometresConverter(App):
     #     except ValueError:
     #         pass
 
+    def increment_miles(self, direction):
+        """increment the miles by the given direction"""
+
+        miles = float(self.root.ids.input_miles.text)
+
+        miles = miles + direction
+        self.root.ids.input_miles.text = str(miles)
+
+
 
 MilesToKilometresConverter().run()
