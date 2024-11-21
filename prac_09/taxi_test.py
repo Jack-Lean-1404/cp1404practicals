@@ -1,5 +1,6 @@
 from prac_09.taxi import Taxi
 
+
 def main():
     """Test taxi class"""
     my_taxi = Taxi("Prius 1", 100)
